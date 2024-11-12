@@ -1,8 +1,9 @@
-import streamlit as st
-import xml.etree.ElementTree as ET
-import re
-from bs4 import BeautifulSoup
-from io import BytesIO
+# import library
+import streamlit as st # for web design
+import xml.etree.ElementTree as ET # used for parsing, creating, and modifying XML data.
+import re # regular expression
+from bs4 import BeautifulSoup #library is primarily used for parsing and extracting information from HTML and XML documents.
+from io import BytesIO # for download the file
 
 # Titel for the app
 st.title("XML Text Extractor")
@@ -10,7 +11,7 @@ st.title("XML Text Extractor")
 st.write("This app processes XML text and converts it into clean, readable text, removing unnecessary tags and formatting for easier use and analysis. Simply input your XML data, and the app will extract the content in a streamlined format")
 
 # Input field for XML content
-#XML_text = st.text_area("Paste XML Text Here")
+
 # File uploader to select XML file
 uploaded_file = st.file_uploader("Choose an XML file", type=["xml"])
 
