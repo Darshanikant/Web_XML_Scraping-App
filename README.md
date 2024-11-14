@@ -6,6 +6,7 @@
 - Data Cleaning Functions: Removes HTML tags, unnecessary square brackets, and redundant whitespace for improved readability.
 - Cleaned Text Output: Download the processed XML content as a .txt file, ready for use.
 - User-Friendly Interface: Powered by Streamlit for a smooth, interactive experience.
+  
 # Tech Stack
 - Python: Backend logic and processing.
 - Streamlit: For creating an interactive web interface.
